@@ -39,3 +39,39 @@ As principais ferramentas e bibliotecas utilizadas no projeto são:
 - **Streamlit**: Deploy do MVP interativo.
 - **GitHub Projects**: Gerenciamento das tarefas.
 
+Para mais detalhes sobre o modelo ou a análise, consulte os notebooks na pasta `notebooks`.
+
+## Insights Relevantes no Dashboard
+O storytelling no dashboard apresenta os seguintes insights:
+1. Impacto de eventos geopolíticos no preço do petróleo (ex.: guerras, sanções).
+2. Relação entre crises econômicas globais e a volatilidade dos preços.
+3. Tendências sazonais ou padrões anuais nos preços históricos.
+4. Influência da demanda global por energia nas flutuações dos preços.
+
+## Modelo Preditivo
+O modelo preditivo foi desenvolvido utilizando técnicas de séries temporais, como ARIMA ou LSTM, para prever o preço diário do petróleo Brent com base nos dados históricos.
+
+### Avaliação do Modelo
+O desempenho foi avaliado utilizando métricas como:
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+
+Os resultados detalhados estão disponíveis no notebook `notebooks/`.
+
+## Deploy em Produção
+O deploy foi planejado para ser realizado com Streamlit, permitindo que o cliente visualize os insights e previsões em tempo real.
+
+### Como Acessar o MVP:
+Após executar o comando `streamlit run`, acesse o endereço local fornecido no terminal (ex.: http://localhost:8501).
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+Este projeto é apenas para fins educacionais e não possui licença específica.
+
+---
+
+Desenvolvido por [TIME 1] como parte do Tech Challenge da Pós Tech - Fase 4 🚀.
+
+
